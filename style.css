@@ -1,2 +1,23 @@
 /* Fixed navbar padding */
-body { padding-top: 70px; }
+body {
+  padding-top: 50px;
+}
+
+#top-navbar .container-fluid {
+  max-width: 1024px;
+}
+
+main {
+  width: 100%;
+  height:auto;
+}
+
+section {
+  max-width: 1024px;
+  display: flex;
+  margin: 0 auto;
+}
+
+#section-presentation {
+  background-color: orange;
+}
