@@ -10,12 +10,27 @@ main {
 
 section {
   max-width: 1024px;
-  display: flex;
   margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Fjalla One';
 }
 
 #section-presentation {
   background-color: #777777;
+}
+
+#section-portfolio {
+  background-color: #81d4fa;
+  text-align: center;
+}
+
+#section-portfolio h1, #section-portfolio h3 {
+  text-align: center;
+  width: 100%;
+  margin:0;
+  padding: 10px 0 10px 0;
 }
 
 #portrait {
