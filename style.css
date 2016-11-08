@@ -3,10 +3,6 @@ body {
   padding-top: 50px;
 }
 
-#top-navbar .container-fluid {
-  max-width: 1024px;
-}
-
 main {
   width: 100%;
   height:auto;
@@ -19,5 +15,26 @@ section {
 }
 
 #section-presentation {
-  background-color: orange;
+  background-color: #777777;
+}
+
+#portrait {
+  padding: 20px;
+  border-radius:9%;
+}
+
+#portrait-text {
+  color:white;
+  font-family: 'Open Sans';
+  font-size: 24px;
+  padding: 55px 15px 0 15px;
+}
+
+#top-navbar .container-fluid {
+  max-width: 1024px;
+  font-family: 'Fjalla One';
+}
+
+#nav-name {
+
 }
