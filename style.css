@@ -27,7 +27,7 @@ section {
   color:white;
   font-family: 'Open Sans';
   font-size: 24px;
-  padding: 55px 15px 0 15px;
+  padding: 55px 15px 0 0px;
 }
 
 #top-navbar .container-fluid {
