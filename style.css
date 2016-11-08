@@ -17,8 +17,16 @@ h1 {
   font-family: 'Fjalla One';
 }
 
+.portfolio-item {
+  margin-bottom: 15px;
+}
+
 #section-presentation {
-  background-color: #777777;
+  background-color: #039be5;
+}
+
+#section-contact {
+  background-color: #b3e5fc;
 }
 
 #section-portfolio {
@@ -26,7 +34,7 @@ h1 {
   text-align: center;
 }
 
-#section-portfolio h1, #section-portfolio h3 {
+#section-portfolio h1, #section-portfolio h3, #section-contact h1{
   text-align: center;
   width: 100%;
   margin:0;
