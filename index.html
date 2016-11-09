@@ -32,9 +32,10 @@
       <div class="collapse navbar-collapse  personnal-navbar" id="navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#">About me <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Link</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact me</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fun <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">Action</a></li>
               <li><a href="#">Another action</a></li>
@@ -47,41 +48,85 @@
   </nav>
   <!-- content -->
   <main>
-      <section id="section-presentation">
-        <div class="cointainer-fluid" style="width: 100%;">
-          <div class="row">
-            <div class="col-md-4" style="text-align: center;">
-              <img alt="a picture of Amédée Fleau" src="portrait.jpg" class="img-responsive" id="portrait" style="display: inline-block"/>
-            </div>
-            <div class="col-md-8" style="text-align: center">
-              <p id="portrait-text">
-                Full-Stack Developer and Software Developer</br>Recently diplomed with a bachelor in Computer Science</br>
-                _________________________________</br>
+    <section id="section-presentation">
+      <div class="cointainer-fluid" style="width: 100%;">
+        <div class="row">
+          <div class="col-md-4" style="text-align: center;">
+            <img alt="a picture of Amédée Fleau" src="portrait.jpg" class="img-responsive" id="portrait" style="display: inline-block"/>
+          </div>
+          <div class="col-md-8" style="text-align: center">
+            <p id="portrait-text">
+              Full-Stack Developer and Software Developer</br>Recently diplomed with a bachelor in Computer Science</br>
+              _________________________________</br>
 
-              </p>
-            </div>
-          </div> <!-- row -->
-        </div> <!-- container-fluid -->
-      </section>
-      <section id="section-portfolio">
-        <h1>- Portfolio -</h1>
-        <h3 id="subtitle-portfolio">Some projects I made</h3>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6">
-              <img class="portfolio-item img-thumbnail" src="listic_screenshot.png" />
-              <img class="portfolio-item img-thumbnail" src="renju.png" />
-            </div>
-            <div class="col-md-6">
-              <img class="portfolio-item img-thumbnail" src="pascal-optimus.png" />
-              <img class="portfolio-item img-thumbnail" src="cv-website.png" />
-            </div>
+            </p>
+          </div>
+        </div> <!-- row -->
+      </div> <!-- container-fluid -->
+    </section>
+    <section id="section-portfolio">
+      <h1>- Portfolio -</h1>
+      <h3 id="subtitle-portfolio">Some projects I made</h3>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="portfolio-item img-thumbnail" src="listic_screenshot.png" />
+            <img class="portfolio-item img-thumbnail" src="renju.png" />
+          </div>
+          <div class="col-md-6">
+            <img class="portfolio-item img-thumbnail" src="pascal-optimus.png" />
+            <img class="portfolio-item img-thumbnail" src="cv-website.png" />
           </div>
         </div>
-      </section>
-      <section id="section-contact">
-        <h1>- Contact me -</h1>
-      </section>
+      </div>
+    </section>
+    <section id="section-contact">
+      <h1>- Contact me -</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label for="name">Your name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <label for="email">Your email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your email">
+              </div>
+              <div class="form-group">
+                <label for="phone">Your phone number</label>
+                <input type="text" class="form-control" id="phone" placeholder="Your phone number">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea rows="5" class="form-control" id="message" placeholder="Your message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <p class="contact-text">Want to contact me?</br>Please fill the form, I'll answer as quick as possible!</p><div class="separator"></div>
+            <p class="contact-text">I accept job offers, question related to computer science in general, music suggestions, adding you on Steam/Discord, etc...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+
+          </div>
+          <div class="col-md-6" style="text-align: center; margin: 25px 0 25px 0">
+            Amédée Fleau - 2016 - Copyleft - All rights not reserved
+          </div>
+          <div class="col-md-3">
+
+          </div>
+        </div>
+      </div>
+    </footer>
   </main>
   <!-- footer -->
 </body>

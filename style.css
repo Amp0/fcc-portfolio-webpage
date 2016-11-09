@@ -17,28 +17,56 @@ h1 {
   font-family: 'Fjalla One';
 }
 
+footer {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #fb8c00;
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
 .portfolio-item {
   margin-bottom: 15px;
 }
 
+.separator {
+  width: 80%;
+  display: block;
+  border-bottom: 4px solid black;
+  margin: 0 auto;
+  padding: 10px 0 10px 0;
+}
+
+
 #section-presentation {
-  background-color: #039be5;
+  background-color: #ef6c00;
 }
 
 #section-contact {
-  background-color: #b3e5fc;
+  background-color: #ffa726;
 }
 
 #section-portfolio {
-  background-color: #81d4fa;
+  background-color: #fb8c00;
   text-align: center;
 }
 
-#section-portfolio h1, #section-portfolio h3, #section-contact h1{
+#section-portfolio h1, #section-contact h1{
   text-align: center;
   width: 100%;
   margin:0;
-  padding: 10px 0 10px 0;
+  padding: 20px 0 20px 0;
+}
+
+#section-portfolio h3 {
+  text-align: center;
+  width: 100%;
+  margin:0;
+  padding: 5px 0 20px 0;
 }
 
 #portrait {
@@ -56,8 +84,40 @@ h1 {
 #top-navbar .container-fluid {
   max-width: 1024px;
   font-family: 'Fjalla One';
+
+}
+
+#top-navbar {
+  background-color: #e65100;
+}
+
+#top-navbar a {
+  color: white;
+}
+
+#top-navbar a:hover {
+  color:darkgray !important;
+}
+
+#top-navbar .active a{
+  background-color:  #ef6c00;
+}
+
+.dropdown-menu li a{
+  color:black !important;
+}
+
+ul .open a , ul .open ul{
+  background-color:  #ef6c00 !important;
+  color:white !important;
 }
 
 #nav-name {
 
+}
+
+.contact-text {
+  margin-top:20px;
+  font-family: 'Open Sans';
+  font-size: 20px;
 }
