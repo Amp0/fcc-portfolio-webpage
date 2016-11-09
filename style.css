@@ -1,3 +1,92 @@
+@keyframes rotateit{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bgcolor {
+  from{
+    background-color: white;
+  }
+  10% {
+    background-color: red;
+  }
+  20% {
+    background-color: blue;
+  }
+  30% {
+    background-color: orange;
+  }
+  40% {
+    background-color: darkgreen;
+  }
+  50% {
+    background-color: peachpuff;
+  }
+  60% {
+    background-color: darkgray;
+  }
+  70% {
+    background-color: royalblue;
+  }
+  80% {
+    background-color: crimson;
+  }
+  90% {
+    background-color: yellow;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes burpfont {
+    from {
+      color:red;
+    }
+    50% {
+      color:blue;
+    }
+    100% {
+      color:green;
+    }
+}
+
+@keyframes borderimg {
+  from {
+    border: 0px;
+    transform: rotate(360deg);
+  }
+  50% {
+    border: 10px solid green;
+  }
+  70% {
+    border: 90px solid blue;
+  }
+  to {
+    border: 3px solid red;
+    transform: rotate(0deg);
+  }
+}
+
+.border-img {
+  animation: 1s borderimg infinite alternate;
+}
+
+.burp-font {
+  animation: 1s burpfont infinite alternate;
+}
+
+.bg-color {
+  animation: 2s bgcolor infinite linear;
+}
+
+.rotate {
+  animation: 2s rotateit infinite linear;
+}
 /* Fixed navbar padding */
 body {
   padding-top: 50px;
